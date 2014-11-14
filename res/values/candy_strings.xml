@@ -272,4 +272,54 @@
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
 
 >>>>>>> c537775... Settings: add user configurable lockscreen shortcuts (2/2)
+<<<<<<< HEAD
+=======
+=======
+    <!-- Heads Up -->
+    <string name="category_heads_up">Heads up notifications</string>
+    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>
+    <string name="add_heads_up_blacklist_summary">Don\'t show heads up from these applications</string>
+    <string name="heads_up_dnd_title">Do not disturb</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up</string>
+    <string name="heads_up_dismiss_on_remove_title">Swipe behavior</string>
+    <string name="heads_up_dismiss_on_remove_summary_enabled">Hide notification instead of dismiss</string>
+    <string name="heads_up_dismiss_on_remove_summary_disabled">Hide and dismiss notification</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_never_summary">Notification will show until it is dismissed</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_3sec">3 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_7sec">7 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_9sec">9 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_never">Never</string>
+
+    <!-- Heads up touch outside -->
+    <string name="heads_up_touch_outside_title">Touch outside behavior</string>
+    <string name="heads_up_touch_outside_summary_enabled">Hide notification on touch outside and on home button press</string>
+    <string name="heads_up_touch_outside_summary_disabled">Do not hide notification after touch outside or on home button press</string>
+    
+    <!-- Host File Manager -->
+    <string name="hfm_disable_ads_title">Disable Ads</string>
+    <string name="hfm_disable_ads_summary">Change hosts file to disable ads</string>
+    <string name="hfm_pref_screen_title">Ad blocker</string>
+    <string name="hfm_update_hosts">Update hosts file</string>
+    <string name="hfm_update_hosts_summary">Download and apply fresh hosts</string>
+    <string name="hfm_dialog_wait">Working, please wait...</string>
+    <string name="hfm_dialog_failed">Updating hosts file failed. Please try again.</string>
+    <string name="hfm_dialog_success">/4 hosts sources successfully applied!</string>
+	<string name="hfm_dialog_conn_error">Error: No network connectivity</string>
+
+>>>>>>> c0a0117... Heads-up Customization (2/2)
+>>>>>>> 586560e... AdBlocker 1/3
 </resources>
