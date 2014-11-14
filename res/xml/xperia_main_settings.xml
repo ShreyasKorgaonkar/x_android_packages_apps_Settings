@@ -65,4 +65,13 @@
                 android:icon="@drawable/ic_settings_buttons">
 	</PreferenceScreen>
 
+        <!-- AdBlocker -->
+        <PreferenceScreen
+                android:key="hfm_settings"
+                android:title="@string/hfm_pref_screen_title"
+                android:fragment="com.android.settings.xperia.hfm.HfmSettings"
+                android:icon="@drawable/ic_settings_buttons"> 
+	</PreferenceScreen>
+
+
 </PreferenceScreen>
