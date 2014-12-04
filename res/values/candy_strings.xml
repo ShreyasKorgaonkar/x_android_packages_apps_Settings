@@ -1,11 +1,9 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-<<<<<<< HEAD
      Copyright (C) 2012-2015 The CyanogenMod Project
 
-=======
      Copyright (C) 2015 Candy5 Android
->>>>>>> c537775... Settings: add user configurable lockscreen shortcuts (2/2)
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -42,52 +40,6 @@
     <string name="interface_title">Interface</string>
     <string name="controls_title">Controls</string>
     <string name="userpsace_title">Userspace</string>
-
-<<<<<<< HEAD
-=======
-    <!-- AOKP custom system animations -->  
-    <string name="aokp_animation_title">System animations</string>
-    <string name="animations_settings">Animations</string>
-    <string name="aokp_animation_summary">AOKP system animations</string>
-    <string name="activity_open_title">Activity open animation</string>
-    <string name="activity_close_title">Activity close animation</string>
-    <string name="task_open_title">Task open animation</string>
-    <string name="task_close_title">Task close animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Wallpaper open animation</string>
-    <string name="wallpaper_close_title">Wallpaper close animation</string>
-    <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
-    <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
-    <string name="task_open_behind_title">Task open behind animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="animation_duration_default">Default</string>
-
-
-    <!-- ListView animation -->
-    <string name="interface_settings_animation_title">Listview options</string>
-    <string name="listview_animation_title">ListView animations</string>
-    <string name="listview_off">Default</string>
-    <string name="listview_wave_left">Wave (left)</string>
-    <string name="listview_wave_right">Wave (right)</string>
-    <string name="listview_alpha">Alpha</string>
-    <string name="listview_scale">Scale</string>
-    <string name="listview_stack_top">Stack (top)</string>
-    <string name="listview_stack_bottom">Stack (bottom)</string>
-    <string name="listview_unfold">Unfold</string>
-    <string name="listview_fold">Fold</string>
-    <string name="listview_translate_left">Translate (left)</string>
-    <string name="listview_translate_right">Translate (right)</string>
-
-    <!-- ListView interpolator -->
-    <string name="listview_interpolator_title">ListView interpolator</string>
-    <string name="listview_accelerate_interpolator">Accelerate</string>
-    <string name="listview_decelerate_interpolator">Decelerate</string>
-    <string name="listview_accelerate_decelerate_interpolator">Accelerate and decelerate</string>
-    <string name="listview_anticipate_interpolator">Anticipate</string>
-    <string name="listview_overshoot_interpolator">Overshoot</string>
-    <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
-    <string name="listview_bounce_interpolator">Bounce</string>
     
      <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
@@ -123,26 +75,6 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
-<<<<<<< HEAD
-
->>>>>>> b8282c3... Squashed of network traffic meter
-=======
-
-	<!-- CandyRoms team -->
-	<string name="candykat_team_title">CandyRoms team</string>
-    <string name="candy_matthew0776_title">matthew0776</string>
-    <string name="candy_mar5hal_title">mar5hal</string>
-    <string name="candy_CyberScopes_title">CyberScopes</string>
-    <string name="candy_gimmeitorilltell_title">gimmeitorilltell</string>
-    <string name="candy_BMP7777_title">BMP7777</string>
-    <string name="candy_tr1gg3r84_title">tr1gg3r84</string>
-    <string name="candy_rc420head_title">rc420head</string>
-    <string name="candy_flashalot_title">flashalot aka Brickalot</string>
-    <string name="candy_venomtester_title">Venomtester</string>
-    <string name="candy_cuzz1369_title">cuzz1369</string>
-    <string name="candy_cannondaleV2000_title">cannondaleV2000</string>
-    <string name="candy_darknites_title">Darknites</string>
-    <string name="candy_rapier_title">Rapier</string>
 
    <!-- Show/Hide Search Bar -->
     <string name="recents_show_searchbar">Show search bar in recents menu</string>
@@ -243,9 +175,6 @@
     <string name="shortcuts_icon_picker_twitter">Twitter</string>
     <string name="shortcuts_icon_picker_unlock">Unlock</string>
 
-<<<<<<< HEAD
->>>>>>> 3c2f712... Settings: add central slim ActionListViewSettings class back...
-=======
     <!-- Lockscreen Shortcuts -->
     <string name="lockscreen_shortcuts_title">Lockscreen Shortcuts</string>
     <string name="lockscreen_shortcuts_summary">View or change custom lock screen shortcuts</string>
@@ -275,44 +204,6 @@
     <string name="ime_switcher_notify">Selector notification</string>
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
 
->>>>>>> c537775... Settings: add user configurable lockscreen shortcuts (2/2)
-<<<<<<< HEAD
-=======
-=======
-    <!-- Heads Up -->
-    <string name="category_heads_up">Heads up notifications</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Don\'t show heads up from these applications</string>
-    <string name="heads_up_dnd_title">Do not disturb</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up</string>
-    <string name="heads_up_dismiss_on_remove_title">Swipe behavior</string>
-    <string name="heads_up_dismiss_on_remove_summary_enabled">Hide notification instead of dismiss</string>
-    <string name="heads_up_dismiss_on_remove_summary_disabled">Hide and dismiss notification</string>
-
-    <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_never_summary">Notification will show until it is dismissed</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_3sec">3 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_7sec">7 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_9sec">9 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
-    <string name="heads_up_time_out_never">Never</string>
-
-    <!-- Heads up touch outside -->
-    <string name="heads_up_touch_outside_title">Touch outside behavior</string>
-    <string name="heads_up_touch_outside_summary_enabled">Hide notification on touch outside and on home button press</string>
-    <string name="heads_up_touch_outside_summary_disabled">Do not hide notification after touch outside or on home button press</string>
-    
     <!-- Host File Manager -->
     <string name="hfm_disable_ads_title">Disable Ads</string>
     <string name="hfm_disable_ads_summary">Change hosts file to disable ads</string>
@@ -324,6 +215,12 @@
     <string name="hfm_dialog_success">/4 hosts sources successfully applied!</string>
 	<string name="hfm_dialog_conn_error">Error: No network connectivity</string>
 
->>>>>>> c0a0117... Heads-up Customization (2/2)
->>>>>>> 586560e... AdBlocker 1/3
+    <!-- QuickSettings: Smart Pulldown -->
+    <string name="smart_pulldown_title">Smart pulldown</string>
+    <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
+    <string name="smart_pulldown_off">Off</string>
+    <string name="smart_pulldown_dismissable">No dismissable</string>
+    <string name="smart_pulldown_persistent">No persistent</string>
+    <string name="smart_pulldown_all">No dismissable or persistent</string>
+
 </resources>
