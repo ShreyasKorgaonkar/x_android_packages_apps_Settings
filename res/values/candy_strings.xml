@@ -222,6 +222,11 @@
     <string name="smart_pulldown_persistent">No persistent</string>
     <string name="smart_pulldown_all">No dismissable or persistent</string>
 
+
+    <!-- Changelog -->
+    <string name="changelog_candy_title">Changelog</string>
+    <string name="changelog_candy_error">Unable to load changelog</string>
+
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notification</string>
     <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
