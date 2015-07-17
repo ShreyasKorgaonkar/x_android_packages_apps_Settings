@@ -69,9 +69,9 @@
     <color name="running_processes_free_ram">#ffced7db</color>
 
     <!-- Palette colors referenced by top-level themes. -->
-    <color name="theme_primary">#ff263238</color>
-    <color name="theme_primary_dark">#ff21272b</color>
-    <color name="theme_accent">#ff009688</color>
+    <color name="theme_primary">?android:colorPrimary</color>
+    <color name="theme_primary_dark">?android:colorPrimaryDark</color>
+    <color name="theme_accent">?android:colorAccent</color>
 
     <color name="dashboard_background_color">#ffe1e1e0</color>
     <color name="switchbar_background_color">#ff37474f</color>
@@ -80,5 +80,25 @@
     <color name="wifi_divider">#ffe0e0e0</color>
     <color name="sim_noitification">@*android:color/material_deep_teal_500</color>
     <color name="regulatory_text_color">#000</color>
+    <color name="battery_history_chart_background">#ff009688</color>
+    <color name="battery_history_chart_good">#80008000</color>
+    <color name="battery_history_chart_warning">#80808000</color>
+    <color name="battery_history_chart_critical">#c0800000</color>
+    <color name="battery_history_chart_time_remain">#ffced7bb</color>
+    <color name="battery_history_chart_debug">#ffff0000</color>
+    <color name="battery_history_chart_screen_on">#ff009688</color>
+    <color name="battery_history_chart_gps_on">#ff009688</color>
+    <color name="battery_history_chart_wifi">#ff009688</color>
+    <color name="battery_history_chart_cpu_running">#ff009688</color>
+    <color name="battery_history_chart_charging">#ff009688</color>
+    <color name="battery_history_chart_phone_signal_1">#00000000</color>
+    <color name="battery_history_chart_phone_signal_2">#ffc43828</color>
+    <color name="battery_history_chart_phone_signal_3">#ffe54918</color>
+    <color name="battery_history_chart_phone_signal_4">#fff47b00</color>
+    <color name="battery_history_chart_phone_signal_5">#fffabf2c</color>
+    <color name="battery_history_chart_phone_signal_6">#ff679e37</color>
+    <color name="battery_history_chart_phone_signal_7">#ff0a7f42</color>
+    <color name="locale_selector_divider_color">#ffffffff</color>
+    <color name="memory_android_system">#ff7e3201</color>
 
 </resources>
