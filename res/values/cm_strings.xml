@@ -1438,4 +1438,8 @@
     <string name="smart_pulldown_persistent">No persistent</string>
     <string name="smart_pulldown_all">No dismissable or persistent</string>
 
+    <!-- Changelog -->
+    <string name="changelog_xperia_title">Xperia Genesis Changelog</string>
+    <string name="changelog_xperia_error">Unable to load changelog</string>
+
 </resources>
