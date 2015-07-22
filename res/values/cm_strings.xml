@@ -1442,4 +1442,8 @@
     <string name="changelog_xperia_title">Xperia Genesis Changelog</string>
     <string name="changelog_xperia_error">Unable to load changelog</string>
 
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Force expanded notification</string>
+    <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
+     
 </resources>
