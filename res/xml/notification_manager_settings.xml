@@ -23,6 +23,12 @@
             android:summaryOn="@string/summary_heads_up_enabled"
             android:summaryOff="@string/summary_heads_up_disabled" />
 
+    <!-- Heads up -->
+    <PreferenceScreen
+        android:key="heads_up_enabled"
+        android:title="@string/category_heads_up"
+        android:fragment="com.android.settings.xperia.HeadsUpSettings" />
+
     <!-- When device is locked -->
     <com.android.settings.notification.DropDownPreference
             android:key="lock_screen_notifications"
