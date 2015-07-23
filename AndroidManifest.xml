@@ -2317,6 +2317,21 @@
             </intent-filter>
         </activity>
 
+       <!-- Xperia Genesis Main Settings -->
+        <activity android:name="Settings$MainSettingsActivity"
+            android:label="@string/xperia_settings_title"
+            android:taskAffinity="">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.xperia.MainSettings" />
+         </activity>
+ 
+        <activity
+             android:name=".xperia.MainSettings" />
+
         <activity android:name=".Settings$LockScreenSettingsActivity"
                   android:label="@string/lockscreen_settings"
                   android:taskAffinity="">

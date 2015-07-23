@@ -95,17 +95,25 @@
 
     </dashboard-category>
 
-    <!-- DEVICE -->
+    <!-- Xperia Genesis -->
     <dashboard-category
             android:id="@+id/device_section"
             android:title="@string/header_category_device" >
 
-        <!-- Sound -->
+        <!-- Genesis Interface -->
         <dashboard-tile
-                android:id="@+id/sound_settings"
-                android:title="@string/category_sounds"
-                android:fragment="com.android.settings.SoundSettings"
-                android:icon="@drawable/ic_settings_sounds"
+                android:id="@+id/main_settings"
+                android:title="@string/category_genesis"
+                android:fragment="com.android.settings.xperia.MainSettings"
+                android:icon="@drawable/ic_settings_personalization"
+                />
+
+       <!-- Home -->
+        <dashboard-tile
+                android:id="@+id/home_settings"
+                android:title="@string/home_settings"
+                android:fragment="com.android.settings.HomeSettings"
+                android:icon="@drawable/ic_settings_home"
                 />
 
         <!-- Display & lights -->
@@ -116,17 +124,13 @@
                 android:icon="@drawable/ic_settings_display"
                 />
 
-        <!-- Themes -->
-        <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
+        <!-- Sound -->
         <dashboard-tile
-                android:id="@+id/theme_settings"
-                android:title="@string/themes_settings_title"
-                android:icon="@drawable/ic_settings_themes">
-            <intent
-                    android:action="android.intent.action.MAIN" >
-                <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
-            </intent>
-        </dashboard-tile>
+                android:id="@+id/sound_settings"
+                android:title="@string/category_sounds"
+                android:fragment="com.android.settings.SoundSettings"
+                android:icon="@drawable/ic_settings_sounds"
+                />
 
         <!-- Notification manager -->
         <dashboard-tile
@@ -134,22 +138,6 @@
                 android:title="@string/notification_manager"
                 android:fragment="com.android.settings.notification.NotificationManagerSettings"
                 android:icon="@drawable/ic_settings_notifications"
-                />
-
-        <!-- Lock screen -->
-        <dashboard-tile
-                android:id="@+id/lockscreen_settings"
-                android:title="@string/lockscreen_settings"
-                android:fragment="com.android.settings.lockscreen.LockScreenSettings"
-                android:icon="@drawable/ic_settings_lockscreen"
-                />
-
-        <!-- Buttons -->
-        <dashboard-tile
-                android:id="@+id/button_settings"
-                android:title="@string/button_pref_title"
-                android:fragment="com.android.settings.ButtonSettings"
-                android:icon="@drawable/ic_settings_buttons"
                 />
 
         <!-- O-Click -->
@@ -204,38 +192,12 @@
             android:id="@+id/personal_section"
             android:title="@string/header_category_personal" >
 
-        <!-- Home -->
-        <dashboard-tile
-                android:id="@+id/home_settings"
-                android:title="@string/home_settings"
-                android:fragment="com.android.settings.HomeSettings"
-                android:icon="@drawable/ic_settings_home"
-                />
-
         <!-- Profiles -->
         <dashboard-tile
                 android:id="@+id/profile_settings"
                 android:fragment="com.android.settings.profiles.ProfilesSettings"
                 android:title="@string/profiles_settings_title"
                 android:icon="@drawable/ic_settings_profiles"
-                />
-
-        <!-- Status bar -->
-        <dashboard-tile
-                android:id="@+id/status_bar_settings"
-                android:title="@string/status_bar_title"
-                android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
-                android:icon="@drawable/ic_settings_extdesk_hidenavbar"
-                settings:advanced="true"
-                />
-
-        <!-- Notification drawer -->
-        <dashboard-tile
-                android:id="@+id/notification_drawer_settings"
-                android:title="@string/notification_drawer_title"
-                android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
-                android:icon="@drawable/ic_settings_notification_drawer"
-                settings:advanced="true"
                 />
 
         <!-- Application Settings -->
