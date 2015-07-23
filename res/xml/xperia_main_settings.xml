@@ -61,7 +61,8 @@
        <PreferenceScreen
            android:key="lockscreen_shortcuts"
            android:fragment="com.android.settings.xperia.fragments.LockscreenShortcutFragment"
-           android:title="@string/lockscreen_shortcuts_title">
+           android:title="@string/lockscreen_shortcuts_title"
+           android:summary="@string/lockscreen_shortcuts_summary">
           </PreferenceScreen>
 
         <!-- Buttons -->
