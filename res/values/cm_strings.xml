@@ -1031,6 +1031,8 @@
 
     <string name="sim_no_number_set">No number assigned</string>
 
+    <string name="qs_screenrecord_tile">Screenrecord</string>
+
     <!-- Gesture Settings -->
     <!-- Settings main menu entry -->
     <string name="gesture_settings_title">Gestures</string>
