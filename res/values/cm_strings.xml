@@ -1567,5 +1567,7 @@
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
     <string name="themes_settings_title">Personalization</string>
+    <string name="genesis_team_title">Xperia Genesis Team</string>
+    <string name="genesis_evil_title">Evil.Demon_S</string>
      
 </resources>
