@@ -100,12 +100,12 @@
             android:id="@+id/device_section"
             android:title="@string/header_category_device" >
 
-        <!-- Candy interface -->
+        <!-- Xperia Genesis interface -->
         <dashboard-tile
                 android:id="@+id/main_settings"
-                android:title="@string/candy_settings_title"
-                android:fragment="com.android.settings.candy.MainSettings"
-                android:icon="@drawable/ic_candy_interface"
+                android:title="@string/xperia_settings_title"
+                android:fragment="com.android.settings.xperia.MainSettings"
+                android:icon="@drawable/ic_genesis_interface"
                 />
 
         <!-- Sound -->

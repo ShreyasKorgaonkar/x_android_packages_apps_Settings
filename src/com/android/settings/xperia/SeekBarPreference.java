@@ -1,4 +1,4 @@
-package com.android.settings.candy;
+package com.android.settings.xperia;
 
 import android.content.Context;
 import android.content.res.TypedArray;

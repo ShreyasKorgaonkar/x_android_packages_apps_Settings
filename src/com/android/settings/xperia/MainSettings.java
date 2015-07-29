@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy;
+package com.android.settings.xperia;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -60,7 +60,7 @@ private static final String TAG = "MainSettings";
          final Activity activity = getActivity();
          final ContentResolver resolver = activity.getContentResolver();
 
-        addPreferencesFromResource(R.xml.candy_main_settings);
+        addPreferencesFromResource(R.xml.xperia_main_settings);
           
         PreferenceScreen prefSet = getPreferenceScreen();
 

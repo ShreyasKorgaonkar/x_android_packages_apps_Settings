@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy.hfm;
+package com.android.settings.xperia.hfm;
 
 import java.io.DataOutputStream;
 import java.io.File;
@@ -36,7 +36,7 @@ import android.os.StrictMode;
 import android.provider.Settings;
 import android.widget.TextView;
 
-import com.android.settings.candy.hfm.HfmSettings;
+import com.android.settings.xperia.hfm.HfmSettings;
 import com.android.settings.R;
 
 public final class HfmHelpers {

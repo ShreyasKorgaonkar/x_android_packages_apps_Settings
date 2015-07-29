@@ -43,7 +43,7 @@ import com.android.settings.notification.ZenModeSettings;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.users.UserSettings;
-import com.android.settings.candy.MainSettings;
+import com.android.settings.xperia.MainSettings;
 import com.android.settings.voice.VoiceInputSettings;
 import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
@@ -62,7 +62,7 @@ public final class Ranking {
     public static final int RANK_DATA_USAGE = 4;
     public static final int RANK_WIRELESS = 5;
     public static final int RANK_HOME = 6;
-    public static final int RANK_CANDY5 = 7;
+    public static final int RANK_XPERIA = 7;
     public static final int RANK_DISPLAY = 9;
     public static final int RANK_NOTIFICATIONS = 10;
     public static final int RANK_STORAGE = 11;
@@ -110,8 +110,8 @@ public final class Ranking {
         // Home
         sRankMap.put(HomeSettings.class.getName(), RANK_HOME);
 
-        // Candy5
-        sRankMap.put(MainSettings.class.getName(), RANK_CANDY5);
+        // Xperia
+        sRankMap.put(MainSettings.class.getName(), RANK_XPERIA);
 
         // Display
         sRankMap.put(DisplaySettings.class.getName(), RANK_DISPLAY);

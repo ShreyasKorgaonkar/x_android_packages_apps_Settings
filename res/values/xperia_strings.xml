@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	
-    <!-- Candy5 General Settings Strings -->
+    <!-- Xperia Genesis General Settings Strings -->
     <string name="attention">Attention</string>
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
@@ -27,14 +27,14 @@
     <string name="default_string">Default</string>
     <string name="choose_app">Choose application</string>
     <string name="reset_message">Reset all entries to default?</string>
-    <string name="display_category_candy5_options_title">Candy5 Interface</string>
+    <string name="display_category_candy5_options_title">Genesis Interface</string>
     <string name="category_general_title">General Options</string>
-    <string name="candy_settings_title">Candy interface</string>
+    <string name="xperia_settings_title">Genesis Interface</string>
 
  <string name="header_category_personalization">Personalization</string>
 
-    <!-- Candy interface -->
-    <string name="Candy_title">Candy interface</string>
+    <!-- Xperia interface -->
+    <string name="Candy_title">Genesis Interface</string>
     <string name="Status_bar">Status bar</string>
     <string name="interface_title">Interface</string>
     <string name="controls_title">Controls</string>
@@ -224,8 +224,8 @@
 
 
     <!-- Changelog -->
-    <string name="changelog_candy_title">Changelog</string>
-    <string name="changelog_candy_error">Unable to load changelog</string>
+    <string name="changelog_xperia_title">Changelog</string>
+    <string name="changelog_xperia_error">Unable to load changelog</string>
 
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notification</string>

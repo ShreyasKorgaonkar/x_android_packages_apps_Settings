@@ -25,7 +25,7 @@ import com.android.settings.DevelopmentSettings;
 import com.android.settings.DeviceInfoSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.HomeSettings;
-import com.android.settings.candy.MainSettings;
+import com.android.settings.xperia.MainSettings;
 import com.android.settings.ScreenPinningSettings;
 import com.android.settings.PrivacySettings;
 import com.android.settings.R;
@@ -34,7 +34,7 @@ import com.android.settings.WirelessSettings;
 import com.android.settings.accessibility.AccessibilitySettings;
 import com.android.settings.bluetooth.BluetoothSettings;
 import com.android.settings.cyanogenmod.NotificationDrawerSettings;
-import com.android.settings.candy.StatusBarSettings;
+import com.android.settings.xperia.StatusBarSettings;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.deviceinfo.UsbSettings;
 import com.android.settings.fuelgauge.PowerUsageSummary;
@@ -126,7 +126,7 @@ public final class SearchIndexableResources {
                        Ranking.getRankForClassName(MainSettings.class.getName()),
                        NO_DATA_RES_ID,
                        MainSettings.class.getName(),
-                       R.drawable.ic_candy_interface));
+                       R.drawable.ic_genesis_interface));
 
         sResMap.put(LockScreenSettings.class.getName(),
                 new SearchIndexableResource(

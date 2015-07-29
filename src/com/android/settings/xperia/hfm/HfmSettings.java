@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy.hfm;
+package com.android.settings.xperia.hfm;
 
 import java.io.IOException;
 import android.app.ProgressDialog;
@@ -31,8 +31,8 @@ import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 import android.view.View;
 
-import com.android.settings.candy.hfm.FetchHosts;
-import com.android.settings.candy.hfm.HfmHelpers;
+import com.android.settings.xperia.hfm.FetchHosts;
+import com.android.settings.xperia.hfm.HfmHelpers;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 

@@ -2292,13 +2292,13 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.android.settings.candy.hfm.IntentReceiver" >
+        <receiver android:name="com.android.settings.xperia.hfm.IntentReceiver" >
             <intent-filter>
                  <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <service android:name="com.android.settings.candy.hfm.CheckHosts" />
+        <service android:name="com.android.settings.xperia.hfm.CheckHosts" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -2324,20 +2324,20 @@
                 android:resource="@id/sim_settings" />
         </activity>
 
-        <!-- Candy5 Main Settings -->
+        <!-- Xperia Genesis Main Settings -->
         <activity android:name="Settings$MainSettingsActivity"
-            android:label="@string/candy_settings_title"
+            android:label="@string/xperia_settings_title"
             android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.candy.MainSettings" />
+                android:value="com.android.settings.xperia.MainSettings" />
         </activity>
 
         <activity
-             android:name=".candy.MainSettings" />
+             android:name=".xperia.MainSettings" />
 
         <activity android:name=".Settings$LockScreenSettingsActivity"
                   android:label="@string/lockscreen_settings"

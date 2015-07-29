@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy.dslv;
+package com.android.settings.xperia.dslv;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -53,18 +53,18 @@ import android.widget.TextView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.android.internal.util.candy.ActionConfig;
-import com.android.internal.util.candy.ActionConstants;
-import com.android.internal.util.candy.ActionHelper;
-import com.android.internal.util.candy.ImageHelper;
-import com.android.internal.util.candy.DeviceUtils;
-import com.android.internal.util.candy.DeviceUtils.FilteredDeviceFeaturesArray;
+import com.android.internal.util.xperia.ActionConfig;
+import com.android.internal.util.xperia.ActionConstants;
+import com.android.internal.util.xperia.ActionHelper;
+import com.android.internal.util.xperia.ImageHelper;
+import com.android.internal.util.xperia.DeviceUtils;
+import com.android.internal.util.xperia.DeviceUtils.FilteredDeviceFeaturesArray;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
-import com.android.settings.candy.dslv.DragSortListView;
-import com.android.settings.candy.dslv.DragSortController;
-import com.android.settings.candy.util.ShortcutPickerHelper;
+import com.android.settings.xperia.dslv.DragSortListView;
+import com.android.settings.xperia.dslv.DragSortController;
+import com.android.settings.xperia.util.ShortcutPickerHelper;
 
 import java.io.File;
 import java.io.FileOutputStream;

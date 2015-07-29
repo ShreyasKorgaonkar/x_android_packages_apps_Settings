@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy;
+package com.android.settings.xperia;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -51,7 +51,7 @@ public class Changelog extends Fragment {
             }
             text = data.toString();
         } catch (IOException e) {
-            text = getString(R.string.changelog_candy_error);
+            text = getString(R.string.changelog_xperia_error);
         } finally {
             try {
                 if (inputReader != null) {

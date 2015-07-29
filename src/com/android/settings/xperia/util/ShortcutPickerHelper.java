@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy.util;
+package com.android.settings.xperia.util;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -30,7 +30,7 @@ import android.util.Log;
 
 import com.android.settings.R;
 
-import com.android.internal.util.candy.AppHelper;
+import com.android.internal.util.xperia.AppHelper;
 
 import java.util.ArrayList;
 

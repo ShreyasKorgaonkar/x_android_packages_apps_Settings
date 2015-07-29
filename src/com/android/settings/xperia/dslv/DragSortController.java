@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy.dslv;
+package com.android.settings.xperia.dslv;
 
 import android.graphics.Point;
 import android.view.GestureDetector;

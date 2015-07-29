@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy.fragments;
+package com.android.settings.xperia.fragments;
 
 import android.os.Bundle;
 import android.preference.Preference;

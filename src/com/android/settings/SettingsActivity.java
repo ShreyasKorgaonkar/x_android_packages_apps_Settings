@@ -97,7 +97,7 @@ import com.android.settings.notification.OtherSoundSettings;
 import com.android.settings.profiles.NFCProfileTagCallback;
 import com.android.settings.profiles.ProfilesSettings;
 import com.android.settings.quicklaunch.QuickLaunchSettings;
-import com.android.settings.candy.MainSettings;
+import com.android.settings.xperia.MainSettings;
 import com.android.settings.search.DynamicIndexableContentMonitor;
 import com.android.settings.search.Index;
 import com.android.settings.inputmethod.InputMethodAndLanguageSettings;

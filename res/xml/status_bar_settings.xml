@@ -66,7 +66,7 @@
 
     <PreferenceScreen
             android:key="network_traffic_state"
-            android:fragment="com.android.settings.candy.NetworkTraffic"
+            android:fragment="com.android.settings.xperia.NetworkTraffic"
             android:summary="@string/network_traffic_summary"
             android:title="@string/network_traffic_title" />
 

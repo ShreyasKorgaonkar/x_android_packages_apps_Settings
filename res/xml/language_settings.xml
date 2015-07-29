@@ -90,7 +90,7 @@
     <!-- ime options -->
     <PreferenceScreen
         android:key="keyboard_input_settings"
-        android:fragment="com.android.settings.candy.InputMethodsSettings"
+        android:fragment="com.android.settings.xperia.InputMethodsSettings"
         android:title="@string/title_keyboard_input" >
    </PreferenceScreen>
    

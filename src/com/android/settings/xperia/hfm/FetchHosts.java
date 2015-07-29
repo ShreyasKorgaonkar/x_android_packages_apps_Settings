@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package com.android.settings.candy.hfm;
+package com.android.settings.xperia.hfm;
 
 import java.io.IOException;
 
-import com.android.settings.candy.hfm.HfmHelpers;
+import com.android.settings.xperia.hfm.HfmHelpers;
 
 public class FetchHosts {
 
