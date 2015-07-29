@@ -230,5 +230,9 @@
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notification</string>
     <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
+
+	<!-- Genesis Team -->
+	<string name="genesis_team_title">Xperia Genesis Team</string>
+       <string name="genesis_evild_title">Evil.Demon_S</string>
      
 </resources>
